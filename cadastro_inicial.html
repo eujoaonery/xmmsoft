@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="styles.css">  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website icon" type="image/png" href="/assets/logo.png" sizes="16x16"/>
 </head>
 <body>
-        <div class="container">
-            <form class="form">
-             <h1>Cadastro da empresa</h1>
-             <!-- Cria o formulario do cadastro da empresa -->
-             <input type="text" placeholder="Nome da organização" required>
-             <input type="email" placeholder="Email" required>
-             <input type="text" placeholder="Telefone" oninput="formatarTelefone(this)" maxlength="15">
-             <input type="number" placeholder="Quantidade de gestores" required>
-             <input type="number" placeholder="Numero de colaboradores" required>
-             <input type="number" placeholder="Idade da empresa" required>
-             <!-- Cria o botao de proximo -->
-                <button type="submit">Próximo</button>
-             </form>
-        </div>
-    <!-- chama o script js -->
+    <div class="container">
+        <form id="cadastroForm" class="form" action="/cadastro_contatos.html" method="GET">
+            <div class="logo-form">
+                <a href="/cadastro_inicial.html"><img src="assets/logo.png" alt="Logo"></a>
+            </div>
+            <h1>Cadastro da empresa</h1>
+            <!-- Formulário de cadastro da empresa -->
+            <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" required> 
+            <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ" oninput="formatarCNPJ(this)" maxlength="18" required>
+            <input type="text" id="cep" name="cep" maxlength="9" placeholder="CEP" required>
+            <input type="text" id="endereco" name="endereco" placeholder="Endereço" required>
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+            <input type="text" id="bairro" name="bairro" placeholder="Bairro" required>
+            <input type="text" id="uf" name="uf" placeholder="UF" required>
+            <input type="text" id="numero" name="numero" placeholder="Número" required>
+            <!-- Botão de próximo -->
+            <button id="proximoBtn" type="submit">Próximo</button>
+        </form>
+        
+    </div>
+    <!-- Chama o script JS -->
     <script src="script.js"></script>
 </body>
 </html>

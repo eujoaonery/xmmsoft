@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+    font-family: "Hind Siliguri", sans-serif;
+    margin: 0; 
+    background-image: url("https://img.freepik.com/free-photo/blurry-restaurant-with-wooden-floor_1203-1440.jpg?t=st=1716530950~exp=1716534550~hmac=a90f5231b7a95aaf39075d42ec588753182eae6e36258747bd10e0b90a3fad44&w=826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2549A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.form h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2549A3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #2549A3;
+}
+
+.logo-form img {
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
