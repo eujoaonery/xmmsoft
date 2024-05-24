@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">  
 </head>
 <body>
-    <div class="container">
-        <form class="form">
-            <h1>Cadastro da empresa</h1>
-            <input type="text" placeholder="Nome da organização" required>
-            <input type="email" placeholder="Email" required>
-            <input type="tel" placeholder="Telefone (99) 9999-9999" pattern="(\d{2}) \d{4}-\d{4}">
-            <input type="number" placeholder="Quantidade de gestores" required>
-            <input type="number" placeholder="Numero de colaboradores" required>
-            <input type="number" placeholder="Idade da empresa" required>
-            <button type="submit">Próximo</button>
-        </form>
-
-    </div>
+        <div class="container">
+            <form class="form">
+             <h1>Cadastro da empresa</h1>
+             <!-- Cria o formulario do cadastro da empresa -->
+             <input type="text" placeholder="Nome da organização" required>
+             <input type="email" placeholder="Email" required>
+             <input type="text" placeholder="Telefone" oninput="formatarTelefone(this)" maxlength="15">
+             <input type="number" placeholder="Quantidade de gestores" required>
+             <input type="number" placeholder="Numero de colaboradores" required>
+             <input type="number" placeholder="Idade da empresa" required>
+             <!-- Cria o botao de proximo -->
+                <button type="submit">Próximo</button>
+             </form>
+        </div>
+    <!-- chama o script js -->
+    <script src="script.js"></script>
 </body>
 </html>
