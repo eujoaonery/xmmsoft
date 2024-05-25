@@ -21,6 +21,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.loginform {
+    background-color: #ffffff;
+    padding: 80px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
     width: 100%;
     max-width: 300px;
 }
