@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 
 body {
@@ -15,6 +15,7 @@ body {
     padding-top: 4%;
 }
 
+
 .container {
     background-color: #e2e2e2;
     padding: 0px 20px 10px 20px;
@@ -23,38 +24,34 @@ body {
     width: 100%;
     max-width: 460px;
     margin-left: 1px;
-    margin-bottom: -10px;
-    margin-top: -18px;
+    margin-top: -180px;
     border-radius: 0px 20px 20px 0px;
     
 }
 
-.loginform {
-    background-color: #ffffff;
-    padding: 80px 40px;
-    border-radius: 1px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 100%;
-    max-width: 300px;
-}
 
 .loginform{
     background-color: #ffffff;
-    padding: 80px 40px;
-    border-radius: 10px;
+    padding: 63px 40px;
+    border-radius: 0px 20px 20px 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 90%;
     max-width: 300px;
     margin-bottom: -20px;
+    margin-top: -29px;
+    
 }
+
 
 
 .form h1 {
     margin-bottom: 10px;
     color: #633BBC;
     border-bottom: -00px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    font-size: 60px;
+    font-family: "Teachers", sans-serif;
 }
 
 .form input {
@@ -70,7 +67,7 @@ body {
 .form select {
     display: block;
     width: 100%;
-    padding: 100px;
+    padding: 1px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -79,18 +76,61 @@ body {
 
 
 .form button {
-    width: 30%;
-    padding: 7px;
+    width: 100%;
+    padding: 10px 30px;
     border: none;
-    border-radius: 300px;
+    border-radius: 30px;
     background-color: #633BBC;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     margin-right: 10px;
-    
+    margin-top: 60px;
+    text-indent: 7%;
+    margin-bottom: 0px;
 }
 
+
+
+.container-input {
+    position: relative;
+    margin-bottom: 20px;
+    color: #7c7c7c;
+    position: relative;
+    margin-left: 275px;
+    top: -188px; /* Ajuste o valor conforme necessário */
+}
+
+.forgot-password a  {
+    margin-bottom: 10px;
+    color: #633BBC; /* Cor do texto */
+    text-decoration: none;
+    margin-left: -335px;
+    position: relative;
+    top: -7px;
+}
+
+.remember-password input {
+    margin-bottom: 10px;
+    color: #633BBC; /* Cor do texto */
+    text-decoration: none;
+    margin-left: -145px;
+    position: relative;
+    top: -5px;
+}
+
+.remember-password label {
+    margin-bottom: 10px;
+    color: #633BBC; /* Cor do texto */
+    text-decoration: none;
+    margin-left: 2px;
+    position: relative;
+    top: -6px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline; /* Efeito hover */
+}
 
 
 .form button:hover {
@@ -132,15 +172,22 @@ body {
     margin-top: 20px;
 }
 
-.history p {
+.form p {
     margin-bottom: 5px;
     text-indent: 0;
-    font-size: 9.3px;
+    font-size: 50px;
+    margin-left: -305px;
+    margin-top: 320px;
 }
 
-.history strong {
+.form strong {
     color: #633BBC;
 
+}
+
+.form h4 {
+    margin-left: -350px;
+    
 }
 
 
@@ -153,7 +200,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     margin-left: -340px;
-    margin-top: 300px;
+    margin-top: -300px;
     text-align: center;
     width: 260px;
     
@@ -166,3 +213,4 @@ body {
 .form i {
     margin-right: 10px;
 }
+
