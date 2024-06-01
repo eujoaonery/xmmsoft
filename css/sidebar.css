@@ -18,7 +18,7 @@ body, html {
     font-family: "Hind Siliguri", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(149, 166, 189);
+    background-color: #7C8A90;
 }
 .header h1 {
     text-align: center;
@@ -28,8 +28,8 @@ body, html {
 
 .logo img {
     cursor: pointer;
-    width: 70px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-left: 85px;
     margin-bottom: -20px;
     border-radius: 90px;

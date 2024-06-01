@@ -70,7 +70,7 @@ body {
 .form select {
     display: block;
     width: 100%;
-    padding: 100px;
+    padding: 1px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
