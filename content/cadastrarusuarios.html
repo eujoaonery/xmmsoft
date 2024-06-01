@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cargo</title>
+    <link rel="stylesheet" href="/css/modals.css">
+</head>
+<header class="header">
+    <h3>Cadastrar usuarios</h3>
+</header>
+<body>
+<div class="container">
+            <!-- Botão de próximo -->
+            <div class="button-save" id="button-save" type="submit">Salvar</div>
+    <form id="cadastroForm" class="form" action="/modals/usuarios.html" method="GET">
+        <input type="text" id="nome-cargo" name="nome-cargo" placeholder="Nome do cargo" required>
+        <select id="tipo_departamento" name="tipo_departamento">
+            <option value="tipo_departamento">Departamento</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Comercial">Comercial</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Operações">Operações</option>
+        </select>
+        <select id="competencia-1" name="competencia-1" plac>
+            <option value="tipo_departamento">Competencia numero 1</option>
+            <optgroup label="Front-end">
+                <option value="Front-end-basico">Front-end=Básico</option>
+                <option value="Front-end-medio">Front-end=Médio</option>
+                <option value="Front-end-avancado">Front-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="Back-end-basico">Back-end=Básico</option>
+                <option value="Back-end-medio">Back-end=Médio</option>
+                <option value="Back-end-avancado">Back-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Fullstack">
+                <option value="Fullstack-basico">Back-end= Básico</option>
+                <option value="Fullstack-medio">Back-end=Médio</option>
+                <option value="Fullstack-avancado">Back-end=Avançado</option>
+            </optgroup>
+        </select>
+
+        <select id="competencia-2" name="competencia-2" plac>
+            <option value="tipo_departamento">Competencia numero 2</option>
+            <optgroup label="Front-end">
+                <option value="Front-end-basico">Front-end=Básico</option>
+                <option value="Front-end-medio">Front-end=Médio</option>
+                <option value="Front-end-avancado">Front-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="Back-end-basico">Back-end=Básico</option>
+                <option value="Back-end-medio">Back-end=Médio</option>
+                <option value="Back-end-avancado">Back-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Fullstack">
+                <option value="Fullstack-basico">Back-end= Básico</option>
+                <option value="Fullstack-medio">Back-end=Médio</option>
+                <option value="Fullstack-avancado">Back-end=Avançado</option>
+            </optgroup>
+        </select>
+
+        <select id="competencia-3" name="competencia-3" plac>
+            <option value="tipo_departamento">Competencia numero 3</option>
+            <optgroup label="Front-end">
+                <option value="Front-end-basico">Front-end=Básico</option>
+                <option value="Front-end-medio">Front-end=Médio</option>
+                <option value="Front-end-avancado">Front-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="Back-end-basico">Back-end=Básico</option>
+                <option value="Back-end-medio">Back-end=Médio</option>
+                <option value="Back-end-avancado">Back-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Fullstack">
+                <option value="Fullstack-basico">Back-end= Básico</option>
+                <option value="Fullstack-medio">Back-end=Médio</option>
+                <option value="Fullstack-avancado">Back-end=Avançado</option>
+            </optgroup>
+        </select>
+
+        <select id="competencia-4" name="competencia-4" plac>
+            <option value="tipo_departamento">Competencia numero 4</option>
+            <optgroup label="Front-end">
+                <option value="Front-end-basico">Front-end=Básico</option>
+                <option value="Front-end-medio">Front-end=Médio</option>
+                <option value="Front-end-avancado">Front-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="Back-end-basico">Back-end=Básico</option>
+                <option value="Back-end-medio">Back-end=Médio</option>
+                <option value="Back-end-avancado">Back-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Fullstack">
+                <option value="Fullstack-basico">Back-end= Básico</option>
+                <option value="Fullstack-medio">Back-end=Médio</option>
+                <option value="Fullstack-avancado">Back-end=Avançado</option>
+            </optgroup>
+        </select>
+
+        <select id="competencia-5" name="competencia-5" plac>
+            <option value="tipo_departamento">Competencia numero 5</option>
+            <optgroup label="Front-end">
+                <option value="Front-end-basico">Front-end=Básico</option>
+                <option value="Front-end-medio">Front-end=Médio</option>
+                <option value="Front-end-avancado">Front-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="Back-end-basico">Back-end=Básico</option>
+                <option value="Back-end-medio">Back-end=Médio</option>
+                <option value="Back-end-avancado">Back-end=Avançado</option>
+            </optgroup>
+            <optgroup label="Fullstack">
+                <option value="Fullstack-basico">Back-end= Básico</option>
+                <option value="Fullstack-medio">Back-end=Médio</option>
+                <option value="Fullstack-avancado">Back-end=Avançado</option>
+            </optgroup>
+        </select>
+       
+
+    </form>
+</div>
+<!-- Chama o script JS -->
+<script src="/js/scripts.js"></script>
+<script src="/js/controllers/form-controller.js"></script>
+<script src="/js/formater/script-modal.js"></script>
+
+</body>
+</html>

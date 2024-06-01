@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/modals.css">
+</head>
+<header class="header">
+    <h3>Colaboradores</h3>
+</header>
+<body>
+<div class="container">
+    <!-- Botão de próximo -->
+    <div class="button-save" id="button-save" type="submit" onclick="openModal('/content/cadastrarcolaborador.html')">Novo</div>    
+</div>
+
+<!-- Estrutura do modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body">
+            <!-- O conteúdo do modal será carregado aqui -->
+            
+        </div>
+    </div>
+</div>
+
+<!-- Chama o script JS -->
+<script src="/js/formater/scripts.js"></script>
+<script src="/js/formater/script-modal.js"></script>
+<script src="/js/controllers/form-controller.js"></script>
+</body>
+</html>

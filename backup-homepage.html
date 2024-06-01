@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Interativa</title>
+    <link rel="stylesheet" href="/css/sidebar.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-item">
+            <div class="sidebar-title" onclick="toggleMenu('cadastroMenu')">Cadastro</div>
+            <ul id="cadastroMenu" class="sidebar-submenu">
+                <li onclick="openModal('cargos.html')">Cargos</li>
+                <li onclick="openModal('colaboradores.html')">Colaboradores</li>
+                <li onclick="openModal('competencias.html')">Competências</li>
+                <li onclick="openModal('departamento.html')">Departamento</li>
+                <li onclick="openModal('tipoColaborador.html')">Tipo de Colaborador</li>
+                <li onclick="openModal('tipoUsuario.html')">Tipo de Usuario</li>
+                <li onclick="openModal('metasMensais.html')">Metas Mensais</li>
+                <li onclick="openModal('metasGlobais.html')">Metas Globais</li>
+                <li onclick="openModal('usuarios.html')">Usuários</li>
+            </ul>
+        </div>
+        <div class="sidebar-item">
+            <div class="sidebar-title" onclick="toggleMenu('acompanhamentoMenu')">Acompanhamento</div>
+            <ul id="acompanhamentoMenu" class="sidebar-submenu">
+                <!-- Adicione as opções aqui -->
+                <li onclick="openModal('acompanhamento.html')">Colaboradores</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <h2>Bem-vindo</h2>
+        <p>Selecione uma opção no menu.</p>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                <!-- O conteúdo do modal será carregado aqui -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/formater/scripts.js"></script>
+</body>
+</html>

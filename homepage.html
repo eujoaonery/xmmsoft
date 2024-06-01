@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMM soft</title>
+    <link rel="shortcut icon" type="png" href="/assets/logo.png">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="sidebar">
+
+        <div class="sidebar-item">
+            <div class="logo">
+                <a href="/homepage.html"><img src="/assets/jp.png" alt="Logo"></a>
+            </div>
+            <div class="username">
+                <p>Joao Pedro Nery Evangelista</p> 
+            </div>
+            <div class="setor-username">
+                <p>Supervisor - Marketing</p>
+            </div>
+
+        <div class="search">
+            <i class='bx bx-search'></i>
+            <input type="search" id="search" placeholder="    buscar">
+        </div>
+
+            <div class="sidebar-title" onclick="toggleMenu('cadastroMenu')">
+                <i class="fas fa-folder"></i>Cadastro</div>
+            <ul id="cadastroMenu" class="sidebar-submenu">
+                <li onclick="loadContent('cargos.html')"> <i class="fas fa-folder-open"></i>Cargos</li>
+                <li onclick="loadContent('colaboradores.html')"><i class="fas fa-folder-open"></i>Colaboradores</li>
+                <li onclick="loadContent('competencias.html')"><i class="fas fa-folder-open"></i>Competências</li>
+                <li onclick="loadContent('departamento.html')"><i class="fas fa-folder-open"></i>Departamento</li>
+                <li onclick="loadContent('tipoColaborador.html')"><i class="fas fa-folder-open"></i>Tipo de Colaborador</li>
+                <li onclick="loadContent('tipoUsuario.html')"><i class="fas fa-folder-open"></i>Tipo de Usuario</li>
+                <li onclick="loadContent('metasMensais.html')"><i class="fas fa-folder-open"></i>Metas Mensais</li>
+                <li onclick="loadContent('metasGlobais.html')"><i class="fas fa-folder-open"></i>Metas Globais</li>
+                <li onclick="loadContent('usuarios.html')"><i class="fas fa-folder-open"></i>Usuários</li>
+            </ul>
+    
+            <div class="sidebar-title" onclick="toggleMenu('acompanhamentoMenu')">
+                <i class="fas fa-folder"></i>Acompanhamento</div>
+            <ul id="acompanhamentoMenu" class="sidebar-submenu">
+                <!-- Adicione as opções aqui -->
+                <li onclick="loadContent('acompanhamento.html')"><i class="fas fa-folder-open"></i>Colaboradores</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <h2>Bem-vindo</h2>
+        <p>Selecione uma opção no menu.</p>
+    </div>
+    
+
+    <script src="/js/formater/scripts.js"></script>
+    <script src="/js/formater/script-modal.js"></script>
+</body>
+</html>

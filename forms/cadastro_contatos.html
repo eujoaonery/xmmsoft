@@ -8,11 +8,16 @@
     <link rel="website icon" type="image/png" href="/assets/logo.png" sizes="16x16"/>
 </head>
 <body>
+
+    <div class="container1">
+        <div class="img-container1">
+            <img src="/assets/xmmsoft.png" alt="Imagem">
+        </div>
+    </div>
+
     <div class="container">
         <form id="cadastroForm" class="form" action="/forms/cadastro_admin.html" method="GET">
-            <div class="logo-form">
-                <a href="/forms/cadastro_inicial.html"><img src="/assets/logo.png" alt="Logo"></a>
-            </div>
+
             <h1>Cadastro da empresa</h1>
             <!-- Formulário de cadastro da empresa -->
              <input type="text" id="tel"placeholder="Telefone" oninput="formatarTelefone(this)" maxlength="15" required>
@@ -20,6 +25,12 @@
              <input type="text" id="domain" placeholder="Dominio" required>
              <input type="text" id="obs" placeholder="Observação" required>
 
+            <div class="history">
+            <p><strong>Telefone:</strong> Insira um número de telefone válido e atualizado para contato direto com a sua empresa. Isso nos ajudará a entrar em contato de maneira rápida e eficaz, caso necessário.</p>
+            <p><strong>E-mail:</strong> Utilize um endereço de e-mail corporativo. Isso garantirá que todas as nossas comunicações sejam direcionadas ao setor correto e que não haja perda de informações importantes.</p>
+            <p><strong>Domínio:</strong> Informe o domínio do site oficial da sua empresa (por exemplo, www.suaempresa.com). Essa informação nos ajudará a verificar e autenticar sua empresa, proporcionando um atendimento personalizado e seguro.</p>
+            <p><strong>Observação:</strong> Adicione quaisquer informações adicionais ou comentários que você julgar relevantes. Isso pode incluir detalhes específicos sobre suas necessidades, preferências, ou quaisquer outras informações que possam nos ajudar a entender melhor sua empresa.</p>
+            </div>
             <!-- Botão de próximo -->
             <button id="proximoBtn" type="submit">Próximo</button>
         </form>

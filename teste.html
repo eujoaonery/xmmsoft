@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cargo</title>
+    <link rel="stylesheet" href="/css/modals.css">
+</head>
+<body>
+<div class="container">
+    <form id="cadastroForm" class="form" action="/forms/cadastro_contatos.html" method="GET">
+        <h1>Cadastrar Cargo</h1>
+        <input type="text" id="nome-cargo" name="nome-cargo" placeholder="Nome do cargo" required>
+        <select id="tipo_departamento" name="tipo_departamento">
+            <option value="tipo_departamento">Departamento</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Comercial">Comercial</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Operações">Operações</option>
+        </select>
+        <!-- Formulário de Competências -->
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 1)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+        </div>
+
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 2)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+        </div>
+
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 3)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+        </div>
+
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 4)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+        </div>
+
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 5)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+        </div>
+
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (Digite a competencia 1)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+            <button type="button" onclick="adicionarCompetenciaDigitada()">Adicionar Competência</button>
+        </div>
+        <!-- Botão de próximo -->
+        <button id="proximoBtn" type="submit">Salvar Tudo</button>
+    </form>
+</div>
+<!-- Chama o script JS -->
+<script src="/js/scripts.js"></script>
+<script src="/js/controllers/form-controller.js"></script>
+</body>
+</html>

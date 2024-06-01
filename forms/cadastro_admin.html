@@ -8,11 +8,15 @@
     <link rel="website icon" type="image/png" href="/assets/logo.png" sizes="16x16"/>
 </head>
 <body>
+
+    <div class="container1">
+        <div class="img-container1">
+            <img src="/assets/xmmsoft.png" alt="Imagem">
+        </div>
+    </div>
+
     <div class="container">
         <form id="cadastroForm" class="form" action="/forms/cadastro_concluido.html" method="GET">
-            <div class="logo-form">
-                <a href="/forms/cadastro_inicial.html"><img src="/assets/logo.png" alt="Logo"></a>
-            </div>
             <h1>Cadastro do administrador</h1>
             <!-- Formulário de cadastro da empresa -->
             <input type="text" id="nome_admin"  placeholder="Nome completo" required> 
@@ -23,10 +27,13 @@
                 <option value="tipo_admin">Tipo de usuario</option>
                 <option value="adm">Administrador</option>
             </select>
-        
 
-
-
+            <div class="history">
+                <p><strong>Nome completo:</strong> Por favor, insira seu nome completo.</p>
+                <p><strong>E-mail:</strong> Utilize um endereço de e-mail corporativo. Isso garantirá que todas as nossas comunicações sejam direcionadas ao setor correto e que não haja perda de informações importantes.</p>
+                <p><strong>Usuário:</strong> Escolha um nome de usuário único que você usará para acessar nossa plataforma. Isso deve ser algo fácil de lembrar e seguro. Evite utilizar informações óbvias para garantir a segurança da sua conta.</p>
+                <p><strong>Senha:</strong> Crie uma senha segura para proteger sua conta. Use uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais.</p>
+                </div>
             <!-- Botão de próximo -->
             <button id="proximoBtn" type="submit">Próximo</button>
         </form>

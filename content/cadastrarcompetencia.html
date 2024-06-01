@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Competencia</title>
+    <link rel="stylesheet" href="/css/modals.css">
+</head>
+<body>
+<div class="container">
+    <form id="cadastroForm" class="form" action="/modals/competencias.html" method="GET">
+        <h1>Cadastrar Competencia</h1>
+        <!-- Formulário de Competências -->
+        <div class="comp">
+            <input type="text" id="competencia" placeholder="Competência (ex.: Gestão de projetos)">
+            <div class="competencias-selecionadas" id="competencias-selecionadas"></div>
+            <button type="button" onclick="adicionarCompetenciaDigitada()">Adicionar Competência</button>
+        </div>
+        <!-- Botão de próximo -->
+        <button id="proximoBtn" type="submit">Salvar Tudo</button>
+    </form>
+</div>
+<!-- Chama o script JS -->
+<script src="/js/scripts.js"></script>
+<script src="/js/controllers/form-controller.js"></script>
+<script src="/js/formater/script-modal.js"></script>
+<script src="/js/formater//backup-script.js"></script>
+</body>
+</html>
+

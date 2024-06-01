@@ -8,12 +8,19 @@
     <link rel="website icon" type="image/png" href="/assets/logo.png" sizes="16x16"/>
 </head>
 <body>
+
+    <div class="container1">
+        <div class="img-container1">
+            <img src="/assets/xmmsoft.png" alt="Imagem">
+        </div>
+    </div>
+
     <div class="container">
         <form id="cadastroForm" class="form" action="/forms/cadastro_contatos.html" method="GET">
-            <div class="logo-form">
+            <!-- <div class="logo-form">
                 <a href="/forms/cadastro_inicial.html"><img src="/assets/logo.png" alt="Logo"></a>
-            </div>
-            <h1>Cadastro da empresa</h1>
+            </div> -->
+            <h1>Cadastro da empresa</h1> 
             <!-- Formulário de cadastro da empresa -->
             <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" required> 
             <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ" oninput="formatarCNPJ(this)" maxlength="18" required>
@@ -26,8 +33,8 @@
             <!-- Botão de próximo -->
             <button id="proximoBtn" type="submit">Próximo</button>
         </form>
-        
     </div>
+
     <!-- Chama o script JS -->
     <script src="/js/controllers/form-controller.js"></script>
 </body>

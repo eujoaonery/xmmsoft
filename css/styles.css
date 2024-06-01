@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 
 body {
     font-family: "Hind Siliguri", sans-serif;
     margin: 0; 
-    background-image: url("https://img.freepik.com/fotos-gratis/variedade-de-mesa-de-angulo-alto-com-laptop_23-2149013922.jpg?t=st=1716538621~exp=1716542221~hmac=63c3f95630127f8eec363412a0aacfeb11badbd7711f0a391d52d6d9cadf181f&w=826");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2549A3;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    padding-top: 4%;
 }
 
 .container {
-    background-color: #ffffff;
-    padding: 20px 40px;
-    border-radius: 10px;
+    background-color: #e2e2e2;
+    padding: 0px 20px 10px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 460px;
+    margin-left: 1px;
+    margin-bottom: -10px;
+    margin-top: -18px;
+    border-radius: 0px 20px 20px 0px;
+    
 }
 
 .loginform {
     background-color: #ffffff;
     padding: 80px 40px;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
@@ -43,17 +47,20 @@ body {
     text-align: center;
     width: 90%;
     max-width: 300px;
+    margin-bottom: -20px;
 }
 
+
 .form h1 {
-    margin-bottom: 20px;
-    color: #333333;
+    margin-bottom: 10px;
+    color: #633BBC;
+    border-bottom: -00px;
 }
 
 .form input {
     display: block;
-    width: 100%;
-    padding: 10px;
+    width: 95%;
+    padding: 8.8px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -63,7 +70,7 @@ body {
 .form select {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 1px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -72,18 +79,18 @@ body {
 
 
 .form button {
-    width: 100%;
-    padding: 10px;
+    width: 30%;
+    padding: 7px;
     border: none;
-    border-radius: 5px;
-    background-color: #2549A3;
+    border-radius: 300px;
+    background-color: #633BBC;
     color: white;
     font-size: 16px;
     cursor: pointer;
 }
 
 .form button:hover {
-    background-color: #2549A3;
+    background-color: #492b88;
 }
 
 .logo-form img {
@@ -93,4 +100,62 @@ body {
     object-fit: cover;
     padding: 2px 2px;
     border-radius: 30%;
+    margin-bottom: -30px;
+}
+
+.img-container1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.img-container2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/*.history p {
+    margin-bottom: 10px;
+    color: #444444;
+    border-bottom: -00px;
+    font-size: 9.5999px;
+    font-family: "Jost", sans-serif;
+}
+*/
+.history {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.history p {
+    margin-bottom: 5px;
+    text-indent: 0;
+    font-size: 9.3px;
+}
+
+.history strong {
+    color: #633BBC;
+
+}
+
+.container-button form {
+    
+}
+
+.container-button button {
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #633BBC;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -340px;
+    margin-top: 300px;
+    text-align: center;
+    width: 260px;
+}
+
+.container-button button:hover {
+    background-color: #7058b9;
 }
